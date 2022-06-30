@@ -67,12 +67,10 @@ public class Taxi {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Taxi taxi=new Taxi();
-		taxi.run();
-		taxi.velocity();
+		taxi.run();//운행 여부
+		taxi.velocity();//속도 변환
 		taxi.passenger();//승객 탑승
-		taxi.price();
-		
-
+		taxi.price();//요금 정산
 	}
 
 }

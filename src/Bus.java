@@ -72,7 +72,5 @@ public static void main(String[] args)
 	bus.velocity();
 	bus.passenger();
 	
-	
-	
 }
 }
